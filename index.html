@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my webside</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/784888f46c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="encabezado"> 
+        <h1 class="logo">
+            <a href="index.html"><i class="fa-solid fa-fire"></i> </a>
+        </h1>
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#seccion-principal">Acerca de mi</a></li>
+                <li><a href="index.html">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+
+    <main>
+
+        <!-- --------------------seccion 1------------------  --> 
+        <div class="bienvenida">
+            <h1 >ACERCA DE MI</h1>
+            <h2>¡Bienvenido a mi página! Aquí, aprenderás más sobre mí!</h2>
+        </div>
+
+        <section id="seccion-principal">
+            <div class="acerca-de">
+                <div class="me">
+                    <p class="parrafo1">
+                     Hola, mi nombre es Lizeth Lasso Calvache, tengo 19 años,
+                     soy de Isnos Huila Colombia, en este momento me encuentro
+                     estudiando una licenciatura en ingles, sin enbargo, me
+                     gustaria aprender a programar ya que encuentro divertido
+                     el poder crear cosas a partir de codigos, y desde pequeña
+                     siempre me intereso este campo de la tecnologia.
+                    </p>
+                </div>
+            </div>
+
+            <div class="acerca-de">
+                <div class="me">
+                    <img src='Imagenes/Me.jpg' alt="imagen personal"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------------------------------------> 
+        
+        <div class="cont_img">
+            <div class="imgn">
+                <img class="n1" src="Imagenes/fondo.jpg" alt="fondo"/>
+            </div>
+        </div>
+        
+
+        <!-- --------------------seccion 2------------------  --> 
+
+        <section id="preguntas">
+           <div class="contedorPreguntas">
+               <div class="pregunta">
+                 <img src='Imagenes/Web developer.jpg' alt="imagen personal"/>
+                 <p>
+                    Me gustaria ser una desarrolladora web, ya que me gusta crear y diseñar 
+                    cosas a partir de codigos, siempre me ha parecido interesante, ademas,
+                    de que es una buena forma de encontrar trabajo y algo que siempre me ha
+                    gustado este campo de la tecnologia.
+                 </p>
+               </div>
+            </div>
+           
+           <div class="contedorPreguntas">
+             <div class="pregunta">
+                 <img src='Imagenes/tools.png' alt="imagen personal"/>
+                 <p>
+                    Actualmente estoy estudiando una licenciatura en lenguas extrangeras con 
+                    enfasis enfasis en ingles, pero me gustaria complementar mi carrera con
+                    tecnologia ya que es un campo que tiene amplias posibilidades de empleo.
+                  </p>
+               </div>
+           </div>
+            
+        </div>
+        </section>
+        
+        
+    </main>
+    
+    <!-- --------------------seccion 3------------------  -->
+    
+    <footer>
+        <div class="form-header">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+            
+            <form action="" method="get" class="formulario" id="form">
+                
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                     id="email"
+                     name="email"
+                     type="email"
+                     placeholder="pepe@gmail.com"
+                     required
+                    /> 
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button type="submit" id="submit">Enviar</button>
+                </div>
+                <p class="alertas" id="alertas"> </p>
+            </form>
+        </div>
+       
+        
+    </footer>
+    <div id="contacto">
+        <div class="fin">
+            <h3>Más información...</h3>
+            <ul>
+                <li><a class="navli" href="https://www.facebook.com/lizeth.lasso.33?mibextid=2JQ9oc">Gmail</a></li>
+                <li><a class="navli" href="https://www.facebook.com/lizeth.lasso.33?mibextid=2JQ9oc">Facebook</a></li>
+                <li><a class="navli" href="https://instagram.com/calvache268?igshid=NzZlODBkYWE4Ng==">Instagram</a></li>
+                <li><a class="navli" href="https://wa.me/3174500742">Whatsapp</a></li>
+            </ul>
+        </div>
+    </div>
+   
+    <script src="script.js" defer></script>
+</body>
+</html>
